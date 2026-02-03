@@ -59,6 +59,7 @@ nav ul{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 nav ul li a {
+flex-wrap: wrap;
    text-decoration: none;
     color: #a85b31d7;
     font-weight: bold;
