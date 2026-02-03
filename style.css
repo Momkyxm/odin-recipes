@@ -34,3 +34,39 @@ div{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+p{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #5a3e26cb;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #fed891;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul li a {
+   text-decoration: none;
+    color: #a85b31d7;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #664431d7;
+    color: #eaeaea;
+}
